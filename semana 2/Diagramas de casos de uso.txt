@@ -1,0 +1,35 @@
+Diagramas de casos de uso
+Quién usa el sistema, para qué y cómo se relacionan sus objetivos con ReservaLab como ejemplo.
+
+Un diagrama de casos de uso nos muestra quién usa el sistema y para qué lo usa. No dice cómo se programa ni qué orden ocurren los pasos.
+
+Responde quién puede hacer qué con ReservaLab
+
+Tres piezas y cinco tipos de relación
+
+Piezas: Actor, caso de uso y frontera
+Tipos de relación
+
+Un actor es un rol, no una persona en concreta.
+
+Los actores se dividen en dos: primarios y secundarios
+
+El actor primario inicia el caso de uso porque tiene un objetivo e interactúa directamente con el sistema y se beneficia del resultado.
+
+El actor secundario ayuda al primario a logra su objetivo. No le interesa el resultado en sí. Ejemplo, un servicio de correo que entrega los avisos de cambio de estado.
+
+Un objetivo que el usuario logra con el sistema: Se dibuja un óvalo y se nombra con un verbo fuerte en infinitivo más el objetivo que el que actúa.
+
+-Crear cuenta
+-Cancelar pedido
+-Realizar pago
+-Crear registro
+
+
+Generalización: Un caso de uso es una versión especifica. Lineal continua con un triangulo vacío que apunta el general (padre).
+
+Include: siempre ocurre. Un caso de uso invoca a otro cada vez que se ejecuta. Flecha apuntada del caso base al caso incluido. Sirve para no prepartir un paso que comparten varios casos.
+
+extend: solo bajo una condición. Comportamiento opcional que se agrega a otro caso cuando se cumple una condición. Flecha puntada de la extensión hacia el caso base.
+
+Dependencia; Un elemento necesita a otro para funcionar bien. Flecha punteada del dependiente hacia el independiente.
