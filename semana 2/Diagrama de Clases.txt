@@ -1,0 +1,37 @@
+¿Qué es un diagrama de clases?
+Es un plano estático del sistema: qué tipos de cosas existen, qué guarda cada uno, qué sabe hacer y cómo se relacionan entre sí.
+
+Se leen en el texto del SRS y de los casos de uso.
+
+Ejemplo.
+1. El solicitante elige laboratorio y fecha
+2. El sistema muestra los horarios libres
+3. El solicitante elige la hora de inicio, hora de fin y propósito
+4. El sistema verifica que no se trabaje con otra reserva...
+
+Un rectángulo con tres parte.
+Arriba el nombre, en medio de los atributos (lo que la clase sabe) y abajo los métodos (lo que la clase hace).
+
+Quién puede ver o usar cada atributo y método
+
+1. Público 
+2. Privado
+3. Protegido
+4. Paquete
+
+
+Asociación: Dos clases están conectadas mediante una línea sencilla.
+
+Multiplicidad: Cuando tenemos dos objetos y especificar cuantos puede pedir una clase de la otra.
+
+Agregación: Un todo que agrupa partes que pueden vivir sin él. Línea con rombo vacío del lado del todo.
+
+Composición: Un todo formado por partes que no existen sin él. Más fuerte que la agrupación. Una línea con un rombo lleno del lado del todo.
+
+Herencia (generalización): Una clase hija es un tipo de la clase padre y hereda sus atributos y métodos y los agrega a los suyo. Línea continua con triángulo vacío hacia el parte.
+
+Dependencia y realización: las dos punteadas. 
+
+Dependencia: Una clase usa a otra de forma pasajera como tipo de un atributo o un parámetro. Si la otra cambia, esta podría tener que cambiar.
+
+Realización: Una clase cumple el contrato de una interfaz. Escribe el código de los métodos que la interfaz solo declara.

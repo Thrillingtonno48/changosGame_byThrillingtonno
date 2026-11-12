@@ -28,7 +28,7 @@ Un objetivo que el usuario logra con el sistema: Se dibuja un óvalo y se nombra
 
 Generalización: Un caso de uso es una versión especifica. Lineal continua con un triangulo vacío que apunta el general (padre).
 
-Include: siempre ocurre. Un caso de uso invoca a otro cada vez que se ejecuta. Flecha apuntada del caso base al caso incluido. Sirve para no prepartir un paso que comparten varios casos.
+Include: siempre ocurre. Un caso de uso invoca a otro cada vez que se ejecuta. Flecha apuntada del caso base al caso incluido. Sirve para no repartir un paso que comparten varios casos.
 
 extend: solo bajo una condición. Comportamiento opcional que se agrega a otro caso cuando se cumple una condición. Flecha puntada de la extensión hacia el caso base.
 
