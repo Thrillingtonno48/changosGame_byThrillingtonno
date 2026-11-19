@@ -1,0 +1,11 @@
+Un diagrama de actividad muestra un el flujo de un proceso, se crea en base al diagrama de clases.
+
+Un diagrama tiene un inicio y un final. Un punto solido es un inicio, un punto solido dentro de un circulo es el final.
+
+Una acción es un rectángulo con esquinas redondas y un verbo en infinitivo. Las flechas son el flujo de control dicen qué acción sigue.
+
+Los caminos se separan y se juntan, un rombo con una entrada con varias salidas, esa salida es una decisión.
+
+Cuando suceden cosas al mismo tiempo, se utiliza una barra gruesa que divide el flujo, esto es llamado ebullición (fork). Todos los caminos empiezan a la vez.
+
+Qué hace cada acción, los carriles son los que dividen el diagrama en columnas, un actor o sistema. Cada acción va en el carril del actor quien la realiza
