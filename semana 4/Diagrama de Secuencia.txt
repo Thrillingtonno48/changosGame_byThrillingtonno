@@ -1,0 +1,12 @@
+¿Qué es Diagrama de Secuencia?
+Muestra cómo colaboran los objetos para cumplir un escenario: quién le manda un mensaje a quién, en qué orden y cómo lo hace.
+
+
+Se escribe nombre : Clase.
+
+Cada flecha horizontal es un objeto pidiéndole algo a otro. El texto es llamado método(parámetros). La respuesta regresa con una flecha punteada.
+
+Síncrono: Estar en sincronía
+Asíncrono: Realizar una tarea de forma independiente.
+
+Si un objeto se crea durante el escenario, su caja no va arriba, aparece a la altura del mensaje que lo crea.
